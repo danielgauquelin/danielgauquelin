@@ -1,326 +1,323 @@
 
-<!---
-danielgauquelin/danielgauquelin is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML>
-<HEAD>
-	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
-	<TITLE>Booki</TITLE>
-	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.7  (Win32)">
-	<META NAME="CREATED" CONTENT="20211218;16593538">
-	<META NAME="CHANGED" CONTENT="20211218;17251281">
-	<meta charset="UTF-8">
+      
+      <!-- 
+Cemmentaires:
+	Bonjour a la personne qui devra noter ce travail
 	
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-	<!-- dessous pour les étoiles -->
+	comment mon mentor ne cessait de reporter a plus tard l'envoi de ce zip, j'ai pris les devants
+	et je vous l'envoi tel qu'il me parait correspondre a 
+	desktop - 1.jgp
+	qui est le modele a suivre.
+	Vous noterez que j ai utilise section heeader et footer
+
+	respectueusement
+
+	Daniel Gauquelin
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>site Bookie</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="aaa.css">
+	<!-- cidessous pour les etaoiles -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--<link rel="preconnect" href="https://fonts.googleapis.com">-->
+	<!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+	</style> 
+
+</head>
+
+
+<body>
+<div class="granddiv">	
+<br>
+<div class="centre2">
+
+	<div id="boiteflex3">
+		<div style="text-decoration: overline;color:blue;margin:20px">
+			Hebergements
+		</div>
+		<div style="color:black;margin:20px">
+			Activités
+		</div>
+	</div>
+	<header>
+ 	
+		
+			<!-- BOOKIE  -->
+		<img src="images/logo/booki_3x.png" class="img_booki"><br>
+		<strong>Trouvez votre hébergement pour des vacances de rêve</strong>
+	</header>
+	
+	<br />
+	<div class="nature">En plein centre ville ou en pleine nature
+	</div>
+	<br />
+		
+		<!-- FORMULAIRE -->
+	<form>
+		<img src="images/logo/lieu.jpg" class="imglieu">
+		<input type="text" placeholder="Marseille, France" class="form_texte">    <!--  autofocus]   -->
+		<input type="submit" value="Rechercher" class="form_sub">
+	</form>
+	<br />
+	<div id="boiteflex">
+	 <div class="for_filtres">
+	 	<strong>Filtres : </strong>
+	</div>
+		<div class="formfilt2"><img class="formfilt3" src="images/logo/1.jpg"> <strong>&nbsp;Economique&nbsp;&nbsp;</strong>
+		</div>
+		<div class="formfilt2"><img class="formfilt3" src="images/logo/famillial.jpg"> <strong>&nbsp;Famillial&nbsp;&nbsp;</strong>
+		</div>
+		<div class="formfilt2"><img class="formfilt3" src="images/logo/romantique.jpg"> <strong>&nbsp;Romantique&nbsp;&nbsp;</strong>
+		</div>
+		<div class="formfilt2"><img class="formfilt3" src="images/logo/animaux.jpg"> <strong>&nbsp;Animaux autorisés&nbsp;&nbsp;</strong>
+		</div>
+	</div>
+		<br /> 
+		<div class="divinfos"><img src="images/logo/infos.jpg" class="imginfos">plus de 500 logements sont disponibles dans cette ville</div>
+	
+</div><!--centre 2 -->
+
+</div><!-- gdd-->
+
+<div class="centre2">
+	<div id="boiteflex"><!-- flexbox pour les 2 cadres gris -->
+		<section class="divheberge5">
+		<p><strong>Hebergements à marseille</strong></p><br>
+			<div id="boiteflex2"><!-- flexbox pour l'interieur du cadre gris gauche -->
+				<div class="divheber">
+					<a href="#">
+					<img class="imaheber" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />	
+					<div class="hebermars">
+						<strong>Auberge la Cannebi&egrave;re</strong>
+						<br />
+						Nuit à partir de <strong>25€</strong>
+						<!-- ci dessous etoiles -->
+						<br /><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star unchecked"></span>
+					</div>
+					</a>
+				</div>	
+				<div class="divheber">
+				 <a href="#">
+					<img class="imaheber" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg">	
+					<div class="hebermars">
+						<strong>H&ocirc;tel du port</strong>
+						<br />Nuit à partir de 52€
+						<!-- ci dessous etoiles -->
+						<br /><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+
+					</div><!--hebermars-->
+				</a>	
+				</div><!--divheber-->
+
+				<div class="divheber">
+				 <a href="#">
+					<img class="imaheber" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg">	
+					<div class="hebermars">
+						<strong>H&ocirc;tel les mouettes</strong>
+						<br />Nuit à partir de 76€
+						<!-- ci dessous etoiles -->
+						<br /><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star unchecked"></span>
 
-<!--
-<COL WIDTH=64*>
-	<COL WIDTH=64*>
-	<COL WIDTH=64*>
-	<TR VALIGN=TOP>
-		<TD WIDTH=25% bgcolor=white>
-		<TABLE WIDTH=100% BORDER=0 BORDERCOLOR="#000000" CELLPADDING=4 CELLSPACING=0 bgcolor="#FFFFFF" style="border-radius:10px">
--->
-</HEAD>
+					</div>
+					</a>
+				</div>	
 
-<BODY LANG="fr-FR" DIR="LTR">
-<div class=right2>
-<a href="#">hebergements</a> Activités
-</div>
-<div class="center">
-
-<!--<table align=left style="boder:1px"><tr><td>-->
-<!--<img scr="images/logo/Booki@3x.png" width=200 height=100></img>-->
-<!--</td></tr></table>-->
-<img src="images/bo.jpg">  
-<div style="font-family: Arial"><strong>Trouvez votre hébergement pour des vacances de rêve</strong>
-<br>En plein centre ville ou en pleine nature
-</p>
-
-<input type="text" placeholder="Marseille, France" style="font-size: 20px; border-radius: 4px;padding:9px" autofocus>
-
-
-<img src="images/logo/lieu.jpg" style="float:left; border-radius: 20px 0px 0px 20px" width=45 right=45>
-<input type="submit" value="Chercher" style="cursor:pointer; background-color: #008CBA; color:white; font-size:20px; border-radius: 0px 10px 10px 0px; margin: 0px; padding:10px; border:0px ; color:white">
-    
-<p style="font-size: 15px; padding:9px;font-family:Arial">
-
-<table><TR VALIGN=middle><td VALIGN=middle>
-	<strong>Filtres </strong>
-	</td>
-<td>
-	<a href="#"><img src="images/logo/economique2.jpg" width=150 height=50></a>
-	<a href="#"><img src="images/logo/famillial2.jpg" width=150 height=50></a>
-	<a href="#"><img src="images/logo/romantique2.jpg" width=150 height=50></a>
-	<a href="#"><img src="images/logo/animaux2.jpg" width=150 height=50></a>
-</td></tr></table>
-
-<!--
-<label for="fname">First name: </label>
-  <input type="text" id="fname" name="fname"><br><br>
-  -->
-  <!--
-  <label for="msg"><b>Message</b></label>
-    <textarea placeholder="Type message.." name="msg" required></textarea>
-  -->
-
-
-
-
-<!--
-<table><tr>
-<td>
-
-<img src="images/logo/1.jpg" 
-style="border-radius: 50%" width="40" right="40">
-<input type="button" value="Économique" 
-style="border: 1px solid dodgerblue; cursor:pointer; border: 1px solid dodgerblue; font-size: 15px; border-radius: 0px 20px 20px 0px; padding:9px">
-
-</td>
-<td>
-
-
-<img src="images/logo/famillial.jpg" style="border-radius: 50%" width="40" right="40">
-<input type="button" value="Famillial" 
-style="border: 1px solid dodgerblue; cursor:pointer;font-size: 15px; border-radius: 0px 20px 20px 0px;padding:9px">
-
-</td>
-<td>
-
-<img src="images/logo/romantique.jpg" style="border-radius: 50%" width="40" right="40">
-<input type="button" value="Romantique" 
-style="border: 1px solid dodgerblue; cursor:pointer;font-size: 15px; border-radius: 0px 20px 20px 0px;padding:9px">
-
-</td>
-<td>
-
-<img src="images/logo/animaux.jpg" style="border-radius: 50%" width="40" right="40">
-<input type="button" value="Animaux autorisés" 
-style="border: 1px solid dodgerblue; cursor:pointer;font-size: 15px; border-radius: 0px 20px 20px 0px; padding:9px">
-
-</td>
-
-</tr></table>
--->
-
-</p>
-<!--ba   ckground-color:#8888FF; -->
-
-<p>
-<img src="images/logo/infos.JPG" style="border-radius: 50%; "> Plus de 500 logements sont disponibles dans cette ville
-</p>
-
-
-
-<a href="#" class="fa fa-facebook"></a>
-
-</form>
-
-<table><tr><td>
-
-
-<table bgcolor="#EEEEEE" style="padding:4px;border-radius:10px 10px 10px 10px" height=450><tr><td>
-<p> </p>
-<p style="font-family:Arial"><strong>Hébergements à Marseille</strong></p>
-<p> </p>
-
-</td>
-</tr><tr>
-<td>
-
-
-
-<table bgcolor="#FFFFFF" style="margin:4px;border-radius:10px;"><tr><td>
-<img class="centerImg" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
- alt="Fjords" width="150" height="100" style="border-radius:10px 10px 0px 0px;">
-<div style="text-align:center"> blabla</div>
-</td></tr></table>
-
-</td>
-<td>
-
-<table bgcolor="#FFFFFF" style="margin:4px;border-radius:10px;"><tr><td>
-<img class="centerImg" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
- alt="Fjords" width="150" height="100" style="border-radius:10px 10px 0px 0px;">
-<div style="text-align:center"> blabla</div>
-</td></tr></table>
-
-</td>
-<td>
-
-<table bgcolor="#FFFFFF" style="margin:4px;border-radius:10px;"><tr><td>
-<img class="centerImg" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
- alt="Fjords" width="150" height="100" style="border-radius:10px 10px 0px 0px;">
-<div style="text-align:center"> blabla</div>
-</td></tr></table>
-
-</td>
-</tr><tr>
-<td>
-
-<table bgcolor="#FFFFFF" style="margin:4px;border-radius:10px;"><tr><td>
-<img class="centerImg" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
- alt="Fjords" width="150" height="100" style="border-radius:10px 10px 0px 0px;">
-<div style="text-align:center"> blabla</div>
-</td></tr></table>
-
-</td>
-<td>
-
-<table bgcolor="#FFFFFF" style="margin:4px;border-radius:10px;"><tr><td>
-<img class="centerImg" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
- alt="Fjords" width="150" height="100" style="border-radius:10px 10px 0px 0px;">
-<div style="text-align:center"> blabla</div>
-</td></tr></table>
-
-</td>
-<td>
-
-<table bgcolor="#FFFFFF" style="margin:4px;border-radius:10px;"><tr><td>
-<img class="centerImg" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
- alt="Fjords" width="150" height="100" style="border-radius:10px 10px 0px 0px;">
-<div style="text-align:center"> blabla</div>
-</td></tr></table>
-
-</td>
-</tr><tr>
-<td>
-
-<p> </p>
-<p style="font-family:Arial"><strong>Afficher plus</strong></p>
-<p> </p>
-
-
-
-
-</td></tr></table>
-
-</td><td>
-
-<table bgcolor="#EEEEEE" height=450><tr><td>
-<p><strong>Les plus populaires</strong></p>
-
-<table bgcolor="#FFFFFF" style="margin:4px;border-radius:10px;"><tr><td>
-<img width=100 src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
- alt="Fjords" width="150" height="100" style="border-radius:10px 0px 0px 10px;">
-<div style="text-align:center"> blabla</div>
-</td></tr></table>
-
-</td>
-</tr><tr>
-<td>
-
-<table bgcolor="#FFFFFF" style="margin:4px;border-radius:10px;"><tr><td>
-<img width=100 src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
- alt="Fjords" width="150" height="100" style="border-radius:10px 0px 0px 10px;">
-<div style="text-align:center"> blabla</div>
-</td></tr></table>
-
-</td>
-</tr><tr>
-<td>
-<table bgcolor="#FFFFFF" style="margin:4px;border-radius:10px;"><tr><td>
-<img width=100 src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
- alt="Fjords" width="150" height="100" style="border-radius:10px 0px 0px 10px;">
-<div style="text-align:center"> blabla</div>
-</td></tr></table>
-
-
-
-
-
-
-
-
-
-
-
-</td></tr></table>
-
-</td></tr></table>
-
-
-
-<!--
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-REVOIR FLOAT (CF LIEN VERS W3)    
-QUI MET LES DIVS LUN A COTE DE LOTRE !!!!!!!!!!!!!!!!!!!!!!!!
-di v {  flo at: left;  p  adding: 15px; }
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
--->
-
-
-
-<P STYLE="margin-bottom: 0cm"><BR>
-</P>
-<p style="font-family:Arial"><strong>Activités à Marseille</strong>
-</p>
-<TABLE WIDTH=100% BORDER=0 BORDERCOLOR="#000000" CELLPADDING=4 CELLSPACING=0 bgcolor="#FFFFFF" style="border-radius:10px">
-	<COL WIDTH=64*>
-	<COL WIDTH=64*>
-	<COL WIDTH=64*>
-	<TR VALIGN=TOP>
-		<TD WIDTH=25% bgcolor=white>
-			<div style="background-color:white">
-			
-			<IMG SRC="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
-			style=" border-radius: 10px 10px 0px 0px" NAME="images2" ALIGN=LEFT WIDTH=173 HEIGHT=103 BORDER=0><BR CLEAR=LEFT>111
 			</div>
-		</TD>
-		<TD WIDTH=25%>
-			<P style="border-radius:10px;background-color: white">
-			<IMG SRC="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" 
-			style="border-radius:10px 10px 0px 0px"	NAME="images3" ALIGN=LEFT WIDTH=153 HEIGHT=102 BORDER=0><BR CLEAR=LEFT>222
-			</P>
-		</TD>
-		<TD WIDTH=25%>
-			<P>
-			<IMG SRC="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" 
-			style="border-radius:10px 10px 0px 0px" NAME="images4" ALIGN=LEFT WIDTH=153 HEIGHT=102 BORDER=0>
-			
-			<BR CLEAR=LEFT>333</P>
-		</TD>
-		<TD WIDTH=25%>
-			<P>
-			<IMG SRC="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-			style="border-radius:10px 10px 0px 0px" NAME="images5" ALIGN=LEFT WIDTH=153 HEIGHT=115 BORDER=0><BR CLEAR=LEFT>4444</P>
-		</TD>
-	</TR>
-</TABLE>
-<TABLE WIDTH=516 BORDER=0 BORDERCOLOR="#000000" CELLPADDING=4 CELLSPACING=0 bgcolor="#FFFFFF">
-	<COL WIDTH=248>
-	<COL WIDTH=250>
-	<TR VALIGN=TOP>
-		<TD WIDTH=248 HEIGHT=186>
-			<P>
-			<IMG SRC="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" 
-			style="border-radius:10px 10px 0px 0px" NAME="images1" ALIGN=LEFT WIDTH=106 HEIGHT=150 BORDER=0><BR CLEAR=LEFT>5555</P>
-		</TD>
-		<TD WIDTH=250>
-			<P>
-			<IMG SRC="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
-			style="border-radius:10px 10px 0px 0px" NAME="images6" ALIGN=LEFT WIDTH=161 HEIGHT=108 BORDER=0><BR CLEAR=LEFT>666</P>
-		</TD>
-	</TR>
-</TABLE>
-<P STYLE="margin-bottom: 0cm"><BR>
-</P>
 
-- 👋 Hi, I’m @danielgauquelin
-- 👀 I’m interested in developpement  
-- 🌱 I’m currently learning web develooppement
-- 💞️ I’m looking to collaborate on developpement
-- 📫 How to reach me dangau07@gmail.com
+			<div id="boiteflex">
 
-</BODY>
-</HTML>
-      
-      
-      
+				<div class="divheber">
+				 <a href="#">
+					<img class="imaheber" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg">	
+					<div class="hebermars">
+						<strong>H&ocirc;tel de la mer</strong>
+						<br />Nuit à partir de 46€
+
+						<br /><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star unchecked"></span><span class="fa fa-star unchecked"></span>
+					</div>
+				</a>
+				</div><!--divheber-->
+
+				<div class="divheber">
+				<a href="#">
+					<img class="imaheber" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">	
+					<div class="hebermars">
+						<strong>Auberge le Panier</strong>
+						<br />Nuit à partir de 23€
+
+						<br /><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star unchecked"></span>
+					</div>
+				</a>
+				</div>	
+				
+			<div class="divheber">
+				<a href="#">
+				<img class="imaheber" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">	
+				<div class="hebermars">
+					<strong>H&ocirc;tel chez Amina</strong>
+					<br />Nuit à partir de 96€
+
+					<br /><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+				</div>
+				</a>
+			</div>	
+		</div><!-- 2e div boiteflex pour linterieur du cadre gris -->
+		<p>
+		<strong><a href="#" class="lien_noir">Afficher plus</a></strong>
+		</p>
+		
+	</section><!-- fin de divhergerge5 -->
+	<!-- ===================== POPULAIRES ================= --> 
+	<section class="divheberge4">
+		<strong>Les plus populaires :</strong>
+		<img class="popula" src="images/logo/populaires.jpg" />
+		<div id="boiteflex2"><!-- 2e boiteflex -->
+		<p> &nbsp; </p>
+		<div class="divpopu">
+			<a href="#">
+
+			<img class="imgimg2" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" />	
+			<br /><strong>H&ocirc;tel le soleil du matin</strong>
+
+			<!-- etoiles -->
+			<br /><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+			</a>	
+
+		</div>
+		<br />&nbsp;
+		<div class="divpopu">
+
+			<a href="#">
+				<img class="imgimg2" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" />	
+				<br />
+			   <strong>Au coeur de l'eau</strong>
+				<br />Chambres d'h&ocirc;tes
+				<!--etoiles-->
+				<br /><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star unchecked"></span>
+			</a>
+		</div>
+		<br />&nbsp;	
+
+		<div class="divpopu"> 
+			<a href="#">
+				<img class="imgimg2" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" />	
+				<br />
+				<strong>H&ocirc;tel tout bleu et blanc</strong>
+				<!--etoiles-->
+				<br /><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star unchecked"></span>
+			</a>
+		</div>	
+	</div> 	<!-- boiteflex 2 -->
+</section>	<!-- divheberge4 -->
+
+</div>		<!--  ferme boiteflex 1   -->
+</div>		<!-- ferme centre2 -->
+
+
+<div class=centre2>
+
+	<p><strong>Activités à Marseille</strong></p>
+	<div id="boiteflex">
+	
+		<div class="divombre2">		
+		<a href="#">
+			<img class="imgii" style="" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"  /> 
+			<strong>Vieux port</strong>
+		</a>
+		</div>
+
+			<div class="divacti5">
+				<div class="divombre3">	
+				<a href="#">
+					<img class="img_act" src="images/activites/4_small/paul2.jpg" />
+					<br /><strong>Fort de Pomègue</strong>
+				</a>
+				</div>
+
+				<div class="divombre3">	
+				<a href="#">
+					<img class="img_act" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" />
+					<br />
+					<strong>Iles du Frioul</strong>
+				</a>
+				</div>
+
+				</div>
+				
+				<div class="divacti5">
+				<div class="divombre2">
+				<a href="#">
+					<img  class="img_act" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" />
+					<br />
+					<strong>Parc nationnal des calanques</strong>
+				</a>
+				</div>
+
+				</div>
+				<div class="divacti5">
+					<div class="divombre3">
+						<a href="#">
+						<img class="img_act" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" />
+						<br /><strong>Notre-Dame-de-la-garde</strong>
+						</a>
+				</div>
+					
+				<div class="divombre3">
+					<a href="#">
+					<img  class="img_act" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" />
+					<br /><strong>Parc longchamp</strong>
+					</a>
+				</div>
+
+			</div> 	<!--divacti5-->
+		</div>		<!-- div centre2> -->
+	</div>		<!--centre2-->
+
+
+	<p>&nbsp;</p>
+	<div class=centre2>
+		<footer class="divfooty">
+			<div id="boiteflex2">
+
+				<div class="divfootx">
+				<strong>A propos</strong>
+
+				<br /><a href="#">Fonctionnement du site</a>
+				<br /><a href="#">Conditions générales de vente</a>
+				<br /><a href="#">Données et confidentialit&eacute;</a>
+			</div>	
+
+			<div class="divfootx">
+					
+				<strong>Nos hébergements</strong>
+				<br /><a href="#">Charte de qualit&eacute;</a>
+				<br /><a href="#">Soumettre votre hôtel</a>
+			</div>
+				
+			<div class="divfootx">
+					
+					<strong>Assistance</strong>
+					<br /><a href="#">Centre d'aide</a>
+					<br /><a href="#">Nous contacter</a>
+			</div>
+				
+		</div><!--biteflex-->
+	</footer><!--div footy-->
+</div>		<!--centre2-->
+
+
+</div> <!-- grand div -->
+				
+
+</body>
+</html>
+
